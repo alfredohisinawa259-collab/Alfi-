@@ -19,5 +19,5 @@ jobs:
         run: gradle assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
-          name: Alfi-APK
+          name: Alfji-APK
           path: projeto/app/build/outputs/apk/debug/app-debug.apk
